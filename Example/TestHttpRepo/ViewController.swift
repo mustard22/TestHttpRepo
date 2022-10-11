@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import TestHttpRepo
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        Network.default.request(needSign: false, canCache: .none)
     }
 
     override func didReceiveMemoryWarning() {

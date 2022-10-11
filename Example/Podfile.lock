@@ -1,0 +1,16 @@
+PODS:
+  - TestHttpRepo (1.0.0)
+
+DEPENDENCIES:
+  - TestHttpRepo (from `../`)
+
+EXTERNAL SOURCES:
+  TestHttpRepo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestHttpRepo: 9c77f931ce6200e0b832e050e75e2ff4f79e8734
+
+PODFILE CHECKSUM: 9b134a2963ab8dca2788ac9b6e602881a9090b02
+
+COCOAPODS: 1.11.3
